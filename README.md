@@ -1,52 +1,56 @@
 # Project Name
-> Outline a brief description of your project.
-
+> Lending Club
+    This project is to analyse the past loan data and find the characteristics of the applicants. By that helping to understand the applicant and make decision of approval or rejection of the loan application. This analysis helps in identifying the the right applicant and reducing the reate of default loans.
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Dataset](#dataset)
+* [Analysis Techniques](#analysis-techniques)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [Technologies Used](#technologies-used)
+* [Contact](#contact)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+    A consumer finance company specializing in lending various loans to urban customers. When the company receives a loan application, the company has to decide on loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+
+    If the applicant is likely to repay the loan, then not approving the loan results in a loss of business for the company
+    If the applicant is not likely to repay the loan, i.e. he/she is expected to default, then approving the loan may lead to a financial loss to the company
+ 
+    Analysis of given data should be able to help to conclude the characteristics of the loan applicant, so that the probability to default the loan repayment can be reduced to a greater extent.
+
+## Dataset
+-   Source of Data: loan.csv
+-   Format: csv
+-   Number of Rows: 39717
+-   Each row is: giving the details of the existing loan applican’t characteristics.
+-   Sampling Method: All the loan applications between Apr-2008  and Sep-2011
+
+## Analysis Techniques
+-   Univariate Analysis
+-   Segmented Univariate Analysis
+-   Bivariate Analysis
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+-   Lower the annual income, higher the chances of charged-off .
+-   Higher the loan amount, higher the chances of charged-off. 
+-   Higher the interest rate, higher the chances of charged-off.
+-   Higher the repayment term, higher the chances of charged-off.
+-   When purpose is to settle the other debts then chances are high that the loan will be
+    charged-off.
+-   For new businesses also, possibilities are high to default as ROI is not guaranteed on new 
+    businesses.
+-   Applicants with no employment history may have more chances of charged-off the loan.
+-   Applicants having bankruptcy record are having more chances to default the loan.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Programming Language: Python, version: 3.10.9 
+- Supporting Libraries: Numpy,  verson: 1.23.5
+                        Pandas, version: 1.5.3
+- Charting Tools:       Matplotlib, version: 3.7.0
+		                Seaborn, version: 0.12.2
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@djkotecha] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
